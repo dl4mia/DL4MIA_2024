@@ -15,7 +15,7 @@ git clone  --recurse-submodules https://github.com/dl4mia/DL4MIA_2024.git
 
 ## Content
 
-- [Pre-course Webinar](DL4MIA_Pre-course_Webinar)
+- [Pre-course Webinar](https://github.com/dl4mia/DL4MIA_Pre-course_Webinar)
 - More to come!
 
 ## Resources
