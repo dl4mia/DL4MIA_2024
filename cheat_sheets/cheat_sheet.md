@@ -103,26 +103,6 @@ $ conda list | grep <package>
 $ conda list <package>
 ```
 
-# SSH tunneling
-
-## Start `ssh` tunneling in the background
-
-```bash
-$ ssh -N -f -L <PORT>:localhost:<PORT> <username>@<machine_ip>
-# -N: does not execute the remote command, just for forwarding the port
-# -f: executes the command in the background
-```
-
-## Stopping `ssh` tunnel
-
-For when a process is running in the background and you want to stop it
-
-```bash
-$ ps aux | grep ssh
-# check the process id of the running ssh command
-$ kill <process_id>
-```
-
 # Transferring data to and from the VDI
 
 ## Cloud storage (GDrive, Dropbox, ownCloud, NextCloud, etc.)
@@ -132,59 +112,6 @@ $ kill <process_id>
 3. In your VDI, open the browser (Firefox) and paste the copied link to download you data.
 4. Profit!
 
-## Via Command Line Interface
-
-You can directly transfer your data via the terminal using the following commands.
-
-**Important**: you need to have your VPN connected to HT.
-
-```bash
-scp /localmachine/path/file <username>@<ip_vdi>:/path/where/to/upload/
-
-#if you want to transfer a whole folder, add -r after scp, as follows
-scp -r /localmachine/path/folder_name <username>@<ip_vdi>:/path/where/to/upload/
-
-#example
-scp -r /mnt/D/Data/luc_raw_folder nuno.pimpao@10.1.38.XX:/home/DL4MIA/data/
-```
-
-**Important**: `scp` overwrites the data if you already copied it there.
-
-If you don’t want to overwrite data and only if there are changes, use the following command, very similar to previous
-
-```bash
-rsync -avP /localmachine/path/file <username>@<ip_vdi>:/path/where/to/upload/
-
-# to transfer a folder, do the same, but without the last '/'
-rsync -avP /localmachine/path/folder <username>@<ip_vdi>:/path/where/to/upload/
-
-#example
-rsync -avP /mnt/D/Data/luc_raw_folder nuno.pimpao@10.1.38.XX:/home/DL4MIA/data/
-```
-
-To download data from the VDI to your computer, change the local and vdi arguments so that the vdi comes first, as:
-
-```bash
-scp -r <username>@<ip_vdi>:/data/path/in/vdi/ /localmachine/path/to/download/
-```
-
-## FTP client
-
-One could use an FTP client such as Filezilla (all OS) , WinSCP (Windows), Cyberduck (MacOS), etc. These allow you connect directly to the machine and upload or download data:
-
-> **Important**: you need an active VPN connection
->
-
-```bash
-host: <vdi_ip>
-username: <your_username_in_vdi>
-password: <your_password>
-port: 22
-```
-
-Example in Filezilla:
-
-![Screenshot from 2022-07-22 15-14-00.png](cheat_sheet/Screenshot_from_2022-07-22_15-14-00.png)
 
 # Troubleshooting
 
