@@ -1,3 +1,12 @@
 [submodule "DL4MIA_Pre-course_Webinar"]
 	path = DL4MIA_Pre-course_Webinar
 	url = https://github.com/dl4mia/DL4MIA_Pre-course_Webinar
+[submodule "04_denoising"]
+	path = 04_denoising
+	url = https://github.com/dl4mia/04_denoising
+[submodule "01_segmentation"]
+	path = 01_segmentation
+	url = https://github.com/dl4mia/01_segmentation
+[submodule "05_learned_representations"]
+	path = 05_learned_representations
+	url = https://github.com/dl4mia/05_learned_representations
