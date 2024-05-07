@@ -16,8 +16,12 @@ git clone  --recurse-submodules https://github.com/dl4mia/DL4MIA_2024.git
 ## Content
 
 - [Pre-course Webinar](https://github.com/dl4mia/DL4MIA_Pre-course_Webinar)
-- More to come!
+- [00 - First steps](https://github.com/dl4mia/00_first_steps)
+- [01 - Segmentation](https://github.com/dl4mia/01_segmentation)
+- [02 - Regression](https://github.com/dl4mia/02_regression)
+- [03 - Learned representations](https://github.com/dl4mia/03_learned_representations)
 
+   
 ## Resources
 
 - [**Cheat sheets**](cheat_sheets)
