@@ -12,6 +12,7 @@ by doing the following:
 ```bash
 git clone  --recurse-submodules https://github.com/dl4mia/DL4MIA_2024.git
 
+cd DL4MIA_2024
 sh setup.sh
 ```
 
