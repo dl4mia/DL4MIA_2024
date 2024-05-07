@@ -11,6 +11,8 @@ by doing the following:
 
 ```bash
 git clone  --recurse-submodules https://github.com/dl4mia/DL4MIA_2024.git
+
+sh setup.sh
 ```
 
 ## Content
