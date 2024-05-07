@@ -12,4 +12,4 @@
 	url = https://github.com/dl4mia/05_learned_representations
 [submodule "00_first_steps"]
 	path = 00_first_steps
-	url = git@github.com:dl4mia/00_first_steps.git
+	url = https://github.com/dl4mia/00_first_steps
