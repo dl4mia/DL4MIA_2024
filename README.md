@@ -5,6 +5,8 @@ Welcome to the **EMBO-DL4MIA 2024** course organized at the *Human Technopole* i
 Here are some important links:
 - the [**Course Schedule** can be found here](https://docs.google.com/spreadsheets/d/1tsrXfv-KE8Sz-0V9B8_zIrv1Yn_JGgLePfJ4u7Q9_F0/edit#gid=1986559171)
 - the [**Questions doc** to add your questions](https://docs.google.com/document/d/1MvMkXoJ56m013QXR-H9WxDcIQ8ipXLszjeS1ZylVkYQ/edit?usp=sharing)
+- the [**Zoom Link**] is [here](https://fht-org.zoom.us/j/89841567576?pwd=b3pUK0tIaC9KZGdCN05NMU5URVZXdz09)
+
 
 This repository contains all the exercises and code for the course. You can clone it 
 by doing the following:
