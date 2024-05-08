@@ -16,6 +16,8 @@ cd DL4MIA_2024
 sh setup.sh
 ```
 
+You will need to close and re-open your shell, or `source` your `.bashrc` for changes to take effect.
+
 ## Content
 
 - [Pre-course Webinar](https://github.com/dl4mia/DL4MIA_Pre-course_Webinar)
