@@ -8,17 +8,8 @@ Here are some important links:
 - the [**Zoom Link** here](https://fht-org.zoom.us/j/89841567576?pwd=b3pUK0tIaC9KZGdCN05NMU5URVZXdz09)
 
 
-This repository contains all the exercises and code for the course. You can clone it 
-by doing the following:
+This repository contains all the exercises and code for the course. The `00_first_steps` exercise will help you set everything up!
 
-```bash
-git clone  --recurse-submodules https://github.com/dl4mia/DL4MIA_2024.git
-
-cd DL4MIA_2024
-sh setup.sh
-```
-
-You will need to close and re-open your shell, or `source` your `.bashrc` for changes to take effect.
 
 ## Content
 
